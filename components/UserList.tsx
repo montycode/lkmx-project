@@ -17,6 +17,19 @@ const columns: ColumnDef<User>[] = [
     accessorKey: "email",
     header: "Email",
   },
+
+  {
+    accessorKey: "createdAt",
+    header: "Created At",
+    cell: ({ row }) => {
+      const date = new Date(row.getValue("createdAt"));
+      return date.toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "2-digit",
+        day: "2-digit",
+      });
+    },
+  },
 ];
 
 export function UserList({ users, isLoading }: UserListProps) {
