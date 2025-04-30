@@ -13,11 +13,11 @@ export default function UsersPage() {
   };
 
   return (
-    <div className="p-6 max-w-2xl mx-auto space-y-6">
+    <section className="p-6 max-w-2xl mx-auto space-y-6">
       <h1 className="text-2xl font-bold">Users</h1>
 
       <UserForm onSubmit={handleAddUser} isLoading={isAddingUser} />
       <UserList users={users || []} isLoading={isLoading} />
-    </div>
+    </section>
   );
 }
