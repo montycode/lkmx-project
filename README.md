@@ -15,11 +15,12 @@ This project is deployed and regularly updated on Netlify. Click on the badge to
 ## 📁 Project Structure
 
 ```txt
-/app             -> Client-side pages and UI components
+/app             -> Client-side pages
+/components      -> UI components
 /lib             -> Business logic and utilities
 /pages/api       -> REST API endpoints
 /prisma          -> Database schema and migrations
-/tests           -> Unit and integration tests
+/__tests__       -> Unit and integration tests
 /public          -> Static assets
 .env             -> Environment variables
 ```
@@ -67,13 +68,19 @@ DATABASE_URL=postgresql://postgres:postgres@localhost:5432/mydb
 npm install
 ```
 
-### 4. Start the development server
+### 4. Init prisma
+
+```bash
+npx prisma generate
+```
+
+### 5. Start the development server
 
 ```bash
 npm run dev
 ```
 
-### 5. Open your browser
+### 6. Open your browser
 
 Navigate to [http://localhost:3000](http://localhost:3000) to view the app.
 You can also access the API at [http://localhost:3000/api](http://localhost:3000/api).
