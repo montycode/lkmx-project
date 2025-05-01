@@ -7,6 +7,9 @@ It is built using **Next.js**, **PostgreSQL**, **Docker**, **Prisma**, and **Typ
 
 This project is deployed and regularly updated on Netlify. Click on the badge to check the latest deploy status. 🚀
 
+![image](https://github.com/user-attachments/assets/37a531ee-d26e-4fe4-b1f8-6bd66560a829)
+
+
 ---
 
 ## 📁 Project Structure
