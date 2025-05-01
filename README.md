@@ -3,6 +3,10 @@
 This project was built as part of a technical assessment to demonstrate skills in web development, API design, database integration, containerization, testing, and deployment.  
 It is built using **Next.js**, **PostgreSQL**, **Docker**, **Prisma**, and **TypeScript**.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d0c25810-6c3e-482b-867c-f3d6376980b6/deploy-status)](https://app.netlify.com/sites/lkmx-project/deploys)
+
+This project is deployed and regularly updated on Netlify. Click on the badge to check the latest deploy status. 🚀
+
 ---
 
 ## 📁 Project Structure
